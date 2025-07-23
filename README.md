@@ -52,7 +52,7 @@ Wait for agent connection to link, then navigate to agent trigger file path and 
 
 <img src="images/agent_link.png" alt="agent link" width=600/><br />
 
-<img src="images/trigger_file_path.png" alt="trigger file path" width=600/><br /> 
+<img src="images/agent_trigger_file_path.png" alt="trigger file path" width=600/><br /> 
 
 <img src="images/create_file.png" alt="" width=600/><br />
 
