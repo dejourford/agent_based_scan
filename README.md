@@ -60,7 +60,7 @@ Wait for the scanning agent to detect file. You can `ls` to see the file in the 
 
 <img src="images/scan_results.png" alt="scan results" width=600/><br />
 
-
+<img src="images/remediation_results.png" alt="remediation results" width=600/><br />
  
 
 
@@ -117,11 +117,11 @@ Wait for the scanning agent to detect file. You can `ls` to see the file in the 
 
 <img src="images/scan_results_linux.png" alt="scan results" width=600/><br />
 
-
+<img src="images/remediation_results_linux.png" alt="remediation results" width=600/><br />
 
 ## Discussion
 
-This lab has taught me that in a real-life scenario, it's not feasible to have direct access to a machine in a large enterprise environment where you can disable the firewall and enable ICMPv4 or need an IP address in order to have a successful vulnerability scan. Instead, you can install the scanning agent on the machine, specify a scan condition (scheduled vs triggered), and have an authenticated scan performed when that condition is met. The scan is authenticated because the agent is already installed on the system. So for continuous vulnerability management, multiple devices could be added to an agent group and they could all be scanned on a scheduled basis -- weekly or monthly for example.   
+This lab has taught me that in a real-life scenario, it's not feasible to have direct access to a machine in a large enterprise environment where you can disable the firewall and enable ICMPv4 or need an IP address in order to have a successful vulnerability scan. Instead, you can install the scanning agent on the machine, specify a scan condition (scheduled vs triggered), and have an authenticated scan performed when that condition is met. The scan is authenticated because the agent is already installed on the system. So for continuous vulnerability management, multiple devices could be added to an agent group and they could all be scanned on a scheduled basis -- weekly or monthly for example. Any vulnerabilities were remediated either by uninstalling the program or updating to the most recent version.  
 
 ## Planned Improvements
 
